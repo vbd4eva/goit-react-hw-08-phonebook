@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  text-transform: capitalize;
+  text-decoration: none;
+  padding: 8px;
+  margin: 0 8px;
+  color: var(--color-darken);
+}
+.link:hover {
+  text-decoration: underline;
+}
+
+.active {
+  font-weight: bold;
+  color: var(--color-dark);
+}
